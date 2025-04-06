@@ -330,16 +330,16 @@
                     दिल्ली बाज़ार
                     <div class="game-time">Opening Time: 03:30 AM</div>
                 </td>
-                <td class="result-number">53</td>
                 <td class="result-number">34</td>
+                <td class="result-number">xx</td>
             </tr>
             <tr>
                 <td class="game-name">
                      श्री गणेश
                     <div class="game-time">Opening Time: 04:30 PM</div>
                 </td>
-                <td class="result-number">43</td>
                 <td class="result-number">20</td>
+                <td class="result-number">xx</td>
             </tr>
             <tr>
                 <td class="game-name">
@@ -347,15 +347,15 @@
                     <div class="game-time">Opening Time: 6:00 PM</div>
                 </td>
                 <td class="result-number">68</td>
-                <td class="result-number">68</td>
+                <td class="result-number">xx</td>
             </tr>
             <tr>
                 <td class="game-name">
                     गाजियाबाद
                     <div class="game-time">Opening Time: 9:30 PM</div>
                 </td>
-                <td class="result-number">67</td>
                 <td class="result-number">56</td>
+                <td class="result-number">xx</td>
             </tr>
             <tr>
                 <td class="game-name">
@@ -370,8 +370,8 @@
                     देसावर
                     <div class="game-time">Opening Time: 5:00 AM</div>
                 </td>
-                <td class="result-number">02</td>
                 <td class="result-number">24</td>
+                <td class="result-number">xx</td>
             </tr>
         </tbody>
     </table>
@@ -433,7 +433,7 @@
                 <td class="result-number">24</td>
                 <td class="result-number">68</td>
                 <td class="result-number">56</td>
-                <td class="result-number">XX</td>
+                <td class="result-number">98</td>
             </tr>
             <tr>
                 <td class="day">07</td>
@@ -614,8 +614,8 @@
             let tomorrow = new Date();
             tomorrow.setDate(now.getDate() - 1);
 
-            document.getElementById('date-friday').innerText = `Sun (${now.getDate()}-${now.getMonth() + 1}-${now.getFullYear()})`;
-            document.getElementById('date-saturday').innerText = `Sat (${tomorrow.getDate()}-${tomorrow.getMonth() + 1}-${tomorrow.getFullYear()})`;
+            document.getElementById('date-friday').innerText = `Mon (${now.getDate()}-${now.getMonth() + 1}-${now.getFullYear()})`;
+            document.getElementById('date-saturday').innerText = `Sun (${tomorrow.getDate()}-${tomorrow.getMonth() + 1}-${tomorrow.getFullYear()})`;
         }
 
         document.getElementById('dark-mode-toggle').addEventListener('click', function() {
