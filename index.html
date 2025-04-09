@@ -614,8 +614,8 @@
             let tomorrow = new Date();
             tomorrow.setDate(now.getDate() - 1);
 
-            document.getElementById('date-friday').innerText = `wed (${now.getDate()}-${now.getMonth() + 1}-${now.getFullYear()})`;
-            document.getElementById('date-saturday').innerText = `tue (${tomorrow.getDate()}-${tomorrow.getMonth() + 1}-${tomorrow.getFullYear()})`;
+            document.getElementById('date-friday').innerText = `thu (${now.getDate()}-${now.getMonth() + 1}-${now.getFullYear()})`;
+            document.getElementById('date-saturday').innerText = `wed (${tomorrow.getDate()}-${tomorrow.getMonth() + 1}-${tomorrow.getFullYear()})`;
         }
 
         document.getElementById('dark-mode-toggle').addEventListener('click', function() {
