@@ -363,7 +363,7 @@
                     <div class="game-time">Opening Time: 11:30 PM</div>
                 </td>
                 <td class="result-number">68</td>
-                <td class="result-number">xx</td>
+                <td class="result-number">47</td>
             </tr>
             <tr>
                 <td class="game-name">
@@ -614,8 +614,8 @@
             let tomorrow = new Date();
             tomorrow.setDate(now.getDate() - 1);
 
-            document.getElementById('date-friday').innerText = `Sat (${now.getDate()}-${now.getMonth() + 1}-${now.getFullYear()})`;
-            document.getElementById('date-saturday').innerText = `Fri (${tomorrow.getDate()}-${tomorrow.getMonth() + 1}-${tomorrow.getFullYear()})`;
+            document.getElementById('date-friday').innerText = `sun (${now.getDate()}-${now.getMonth() + 1}-${now.getFullYear()})`;
+            document.getElementById('date-saturday').innerText = `sat (${tomorrow.getDate()}-${tomorrow.getMonth() + 1}-${tomorrow.getFullYear()})`;
         }
 
         document.getElementById('dark-mode-toggle').addEventListener('click', function() {
